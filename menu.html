@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title> Menu </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body body-background="Banana Menu.jpg">
+        <center>
+            <br>
+            <hr>
+            <br>
+            <h2> Menu 
+                <br> <br>
+                Which Meal Are You Looking For?
+            </h2>
+            <br>
+            <hr>
+            <br>
+            <label class="note"> Note: Click On A Button To See The Recipes We Have For That Meal And Scroll Down To See The Drinks Menu And The Kids Menu </label>
+            <br>
+            <hr>
+            <br>
+            <button type="button" class="btn btn-info b" onclick="breakfast()"> Breakfast </button>
+            <br>
+            <hr>
+            <br>
+            <button type="button" class="btn btn-success l" onclick="lunch()"> Lunch </button>
+            <br>
+            <hr>
+            <br>
+            <button type="button" class="btn btn-warning d" onclick="dinner()"> Dinner </button>
+            <br>
+            <hr>
+            <br>
+            <button type="button" class="btn btn-danger ds" onclick="dessert()"> Desserts </button>
+            <br>
+            <hr>
+            <br>
+            <button type="button" class="btn dr" onclick="drinks()"> Drinks </button>
+            <br>
+            <hr>
+            <br>
+            <button type="button" class="btn kd" onclick="kids()"> Kids </button>
+            <br>
+            <hr>
+            <br>
+        </center>
+        <script src="menu.js"></script>
+    </body>
+    </html>
+
+    <style>
+        body{
+            background-color:grey;
+            color:white;  
+            background-size:cover;   
+        }
+
+        .note{
+            font-size:20px;
+        }
+
+        .b{
+            width:175px;
+            font-size:20px;
+        }
+
+        .l{
+            width:175px;
+            font-size:20px;
+        }
+        
+        .d{
+            width:175px;
+            font-size:20px;
+        }
+        
+        .ds{
+            width:175px;
+            font-size:20px;
+        }
+
+        .dr{
+            width:175px;
+            font-size:20px;
+            background-color:rgb(255, 144, 161);
+        }
+
+        .kd{
+            width:175px;
+            font-size:20px;
+            background-color:rgb(206, 0, 206);
+        }
+    </style>
